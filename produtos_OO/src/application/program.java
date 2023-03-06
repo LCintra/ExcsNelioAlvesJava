@@ -29,7 +29,7 @@ public class program {
 		product.addProducts(quantity);
 		
 		System.out.println();
-		System.out.println("Updated data: " + product);
+		System.out.println("Updated data after add: " + product);
 		
 		System.out.println();
 		System.out.println("Enter the number of products to be removed from stock: ");
@@ -37,7 +37,7 @@ public class program {
 		product.removeProducts(quantity);
 		
 		System.out.println();
-		System.out.println("Updated data: " + product);
+		System.out.println("Updated data after remove: " + product);
 	}
 
 }
