@@ -1,5 +1,7 @@
 package entities;
 
+import java.awt.Rectangle;
+
 public class Product {
 	public String name;
 	public double price;
