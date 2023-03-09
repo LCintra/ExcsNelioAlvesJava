@@ -5,11 +5,11 @@ public class ContaBancaria {
 	private String nomeTitular;
 	private double valorConta;
 	
-	public ContaBancaria(int numeroConta, String nomeTitular, double valorConta) {
+	public ContaBancaria(int numeroConta, String nomeTitular, double depositoInicial) {
 		super();
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;
-		this.valorConta = valorConta;
+		realizarDeposito(depositoInicial);
 	}
 	
 	public ContaBancaria(int numeroConta, String nomeTitular) {
